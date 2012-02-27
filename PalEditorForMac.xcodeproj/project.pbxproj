@@ -13,6 +13,8 @@
 		132C85A914FBA960008D8297 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 132C85A714FBA960008D8297 /* Credits.rtf */; };
 		132C85AC14FBA960008D8297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C85AB14FBA960008D8297 /* AppDelegate.m */; };
 		132C85AF14FBA960008D8297 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132C85AD14FBA960008D8297 /* MainMenu.xib */; };
+		132C85BF14FBB364008D8297 /* PalEditorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C85BE14FBB364008D8297 /* PalEditorWindowController.m */; };
+		132C85C114FBB384008D8297 /* PalEditorWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132C85C014FBB384008D8297 /* PalEditorWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,18 @@
 		132C859B14FBA960008D8297 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		132C859C14FBA960008D8297 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		132C859D14FBA960008D8297 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		132C85A014FBA960008D8297 /* PalEditorForMac-Info.plist */ = {isa = PBXFileReference; path = "PalEditorForMac-Info.plist"; sourceTree = "<group>"; };
+		132C85A014FBA960008D8297 /* PalEditorForMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PalEditorForMac-Info.plist"; sourceTree = "<group>"; };
 		132C85A214FBA960008D8297 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		132C85A414FBA960008D8297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		132C85A614FBA960008D8297 /* PalEditorForMac-Prefix.pch */ = {isa = PBXFileReference; path = "PalEditorForMac-Prefix.pch"; sourceTree = "<group>"; };
+		132C85A614FBA960008D8297 /* PalEditorForMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PalEditorForMac-Prefix.pch"; sourceTree = "<group>"; };
 		132C85A814FBA960008D8297 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		132C85AA14FBA960008D8297 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		132C85AA14FBA960008D8297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		132C85AB14FBA960008D8297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		132C85AE14FBA960008D8297 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		132C85BD14FBB364008D8297 /* PalEditorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalEditorWindowController.h; sourceTree = "<group>"; };
+		132C85BE14FBB364008D8297 /* PalEditorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalEditorWindowController.m; sourceTree = "<group>"; };
+		132C85C014FBB384008D8297 /* PalEditorWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PalEditorWindowController.xib; sourceTree = "<group>"; };
+		132C85C214FBC4EF008D8297 /* PalDataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalDataStructure.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				132C85AA14FBA960008D8297 /* AppDelegate.h */,
 				132C85AB14FBA960008D8297 /* AppDelegate.m */,
 				132C85AD14FBA960008D8297 /* MainMenu.xib */,
+				132C85BD14FBB364008D8297 /* PalEditorWindowController.h */,
+				132C85BE14FBB364008D8297 /* PalEditorWindowController.m */,
+				132C85C014FBB384008D8297 /* PalEditorWindowController.xib */,
+				132C85C214FBC4EF008D8297 /* PalDataStructure.h */,
 				132C859F14FBA960008D8297 /* Supporting Files */,
 			);
 			path = PalEditorForMac;
@@ -155,6 +165,7 @@
 				132C85A314FBA960008D8297 /* InfoPlist.strings in Resources */,
 				132C85A914FBA960008D8297 /* Credits.rtf in Resources */,
 				132C85AF14FBA960008D8297 /* MainMenu.xib in Resources */,
+				132C85C114FBB384008D8297 /* PalEditorWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +178,7 @@
 			files = (
 				132C85A514FBA960008D8297 /* main.m in Sources */,
 				132C85AC14FBA960008D8297 /* AppDelegate.m in Sources */,
+				132C85BF14FBB364008D8297 /* PalEditorWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

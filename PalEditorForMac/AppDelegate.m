@@ -15,6 +15,24 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    [self openDocument:self];
+}
+
+- (void)openDocument:(id)sender
+{
+    // Oepn RPG file
+    NSOpenPanel *openRpgFile = [NSOpenPanel openPanel];
+    NSURL *fileUrl;
+    [openRpgFile setCanCreateDirectories:NO];
+    [openRpgFile setAllowsMultipleSelection:NO];
+    [openRpgFile setDelegate:self];
+    [openRpgFile setAllowedFileTypes:[NSArray arrayWithObject:@"rpg"]];
+    if ([openRpgFile runModal]) {
+        fileUrl = [[openRpgFile URLs] objectAtIndex:0];
+    }
+    
+    windowController = [[PalEditorWindowController alloc] initWithWindowNibName:@"PalEditorWindowController"fileName:[fileUrl path]];
+    [windowController showWindow:self];
 }
 
 @end

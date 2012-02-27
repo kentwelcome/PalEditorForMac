@@ -7,9 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "PalEditorWindowController.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate,NSOpenSavePanelDelegate>
+{
+    PalEditorWindowController *windowController;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+
+
+- (IBAction)openDocument:(id)sender;
 
 @end
