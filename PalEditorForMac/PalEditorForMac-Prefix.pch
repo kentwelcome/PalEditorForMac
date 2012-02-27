@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PalEditorForMac' target in the 'PalEditorForMac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

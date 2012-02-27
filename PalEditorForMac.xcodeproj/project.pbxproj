@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		132C859914FBA960008D8297 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132C859814FBA960008D8297 /* Cocoa.framework */; };
+		132C85A314FBA960008D8297 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 132C85A114FBA960008D8297 /* InfoPlist.strings */; };
+		132C85A514FBA960008D8297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C85A414FBA960008D8297 /* main.m */; };
+		132C85A914FBA960008D8297 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 132C85A714FBA960008D8297 /* Credits.rtf */; };
+		132C85AC14FBA960008D8297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C85AB14FBA960008D8297 /* AppDelegate.m */; };
+		132C85AF14FBA960008D8297 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132C85AD14FBA960008D8297 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		132C859414FBA960008D8297 /* PalEditorForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalEditorForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		132C859814FBA960008D8297 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		132C859B14FBA960008D8297 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		132C859C14FBA960008D8297 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		132C859D14FBA960008D8297 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		132C85A014FBA960008D8297 /* PalEditorForMac-Info.plist */ = {isa = PBXFileReference; path = "PalEditorForMac-Info.plist"; sourceTree = "<group>"; };
+		132C85A214FBA960008D8297 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		132C85A414FBA960008D8297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		132C85A614FBA960008D8297 /* PalEditorForMac-Prefix.pch */ = {isa = PBXFileReference; path = "PalEditorForMac-Prefix.pch"; sourceTree = "<group>"; };
+		132C85A814FBA960008D8297 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		132C85AA14FBA960008D8297 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		132C85AB14FBA960008D8297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		132C85AE14FBA960008D8297 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		132C859114FBA960008D8297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132C859914FBA960008D8297 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132C858914FBA960008D8297 = {
+			isa = PBXGroup;
+			children = (
+				132C859E14FBA960008D8297 /* PalEditorForMac */,
+				132C859714FBA960008D8297 /* Frameworks */,
+				132C859514FBA960008D8297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		132C859514FBA960008D8297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				132C859414FBA960008D8297 /* PalEditorForMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		132C859714FBA960008D8297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				132C859814FBA960008D8297 /* Cocoa.framework */,
+				132C859A14FBA960008D8297 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		132C859A14FBA960008D8297 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				132C859B14FBA960008D8297 /* AppKit.framework */,
+				132C859C14FBA960008D8297 /* CoreData.framework */,
+				132C859D14FBA960008D8297 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		132C859E14FBA960008D8297 /* PalEditorForMac */ = {
+			isa = PBXGroup;
+			children = (
+				132C85AA14FBA960008D8297 /* AppDelegate.h */,
+				132C85AB14FBA960008D8297 /* AppDelegate.m */,
+				132C85AD14FBA960008D8297 /* MainMenu.xib */,
+				132C859F14FBA960008D8297 /* Supporting Files */,
+			);
+			path = PalEditorForMac;
+			sourceTree = "<group>";
+		};
+		132C859F14FBA960008D8297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				132C85A014FBA960008D8297 /* PalEditorForMac-Info.plist */,
+				132C85A114FBA960008D8297 /* InfoPlist.strings */,
+				132C85A414FBA960008D8297 /* main.m */,
+				132C85A614FBA960008D8297 /* PalEditorForMac-Prefix.pch */,
+				132C85A714FBA960008D8297 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		132C859314FBA960008D8297 /* PalEditorForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132C85B214FBA960008D8297 /* Build configuration list for PBXNativeTarget "PalEditorForMac" */;
+			buildPhases = (
+				132C859014FBA960008D8297 /* Sources */,
+				132C859114FBA960008D8297 /* Frameworks */,
+				132C859214FBA960008D8297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalEditorForMac;
+			productName = PalEditorForMac;
+			productReference = 132C859414FBA960008D8297 /* PalEditorForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		132C858B14FBA960008D8297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 132C858E14FBA960008D8297 /* Build configuration list for PBXProject "PalEditorForMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 132C858914FBA960008D8297;
+			productRefGroup = 132C859514FBA960008D8297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				132C859314FBA960008D8297 /* PalEditorForMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132C859214FBA960008D8297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132C85A314FBA960008D8297 /* InfoPlist.strings in Resources */,
+				132C85A914FBA960008D8297 /* Credits.rtf in Resources */,
+				132C85AF14FBA960008D8297 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132C859014FBA960008D8297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132C85A514FBA960008D8297 /* main.m in Sources */,
+				132C85AC14FBA960008D8297 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		132C85A114FBA960008D8297 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132C85A214FBA960008D8297 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		132C85A714FBA960008D8297 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132C85A814FBA960008D8297 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		132C85AD14FBA960008D8297 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132C85AE14FBA960008D8297 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		132C85B014FBA960008D8297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		132C85B114FBA960008D8297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		132C85B314FBA960008D8297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PalEditorForMac/PalEditorForMac-Prefix.pch";
+				INFOPLIST_FILE = "PalEditorForMac/PalEditorForMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		132C85B414FBA960008D8297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PalEditorForMac/PalEditorForMac-Prefix.pch";
+				INFOPLIST_FILE = "PalEditorForMac/PalEditorForMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132C858E14FBA960008D8297 /* Build configuration list for PBXProject "PalEditorForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132C85B014FBA960008D8297 /* Debug */,
+				132C85B114FBA960008D8297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132C85B214FBA960008D8297 /* Build configuration list for PBXNativeTarget "PalEditorForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132C85B314FBA960008D8297 /* Debug */,
+				132C85B414FBA960008D8297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 132C858B14FBA960008D8297 /* Project object */;
+}
